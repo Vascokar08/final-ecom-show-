@@ -1,0 +1,269 @@
+/* Contact Section Styles */
+#contact {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center; /* Center align text content */
+}
+
+.lr-pad {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.c-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-text {
+    margin-bottom: 30px;
+}
+
+.head-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.head-title span {
+    color: #007bff;
+}
+
+.head-desc {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-form {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.form-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-form {
+    flex: 1;
+    text-align: center; /* Center align form content */
+}
+
+.right-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.right-form input,
+.right-form textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for better input appearance */
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center; /* Center align text within inputs and textarea */
+}
+
+.right-form textarea {
+    resize: vertical;
+}
+
+
+.get-btn:hover {
+    background-color: #0056b3;
+}
+
+.c-box {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 30px auto 0;
+}
+
+.box {
+    flex-basis: calc(33.33% - 20px);
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #f0f0f0;
+}
+
+.icon {
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* contactus.css */
+
+.lr-pad {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.c-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center; /* Center align content */
+}
+
+.head-text {
+    margin-bottom: 30px;
+}
+
+.head-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.head-title span {
+    color: #007bff;
+}
+
+.head-desc {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; /* Add margin for separation */
+}
+
+.left-form {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.form-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-form {
+    flex: 1;
+    text-align: left;
+}
+
+.right-form form {
+    max-width: 500px; /* Increase max-width for responsiveness */
+    margin: 0 auto;
+}
+
+.right-form input,
+.right-form textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for better input appearance */
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center; /* Center align text within inputs and textarea */
+}
+
+.right-form textarea {
+    resize: vertical;
+
+
+    width: 100%;
+    /* background-color: #0056b/3; */
+}
+
+.get-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    justify-content: center;
+    /* position: absolute; */
+    margin-left: 180px;
+}
+
+.get-btn:hover {
+    background-color: #0056b3;
+}
+
+.c-box {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.box {
+    flex-basis: calc(33.33% - 20px);
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #f0f0f0;
+}
+
+.icon {
+    font-size: 30px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.text h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
